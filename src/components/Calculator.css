@@ -1,0 +1,38 @@
+.box{
+border: black solid;
+    width:100px;
+    padding:120px;
+    border-radius: 2%;
+    background-color: antiquewhite;
+    margin:auto;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.input{
+    align-self: center;
+    margin-right: 5rem;
+    width: 200px;
+}
+.box h1{
+    align-self: center;
+}
+.operators button{
+    background-color: coral;
+    border-radius: 20%;
+    justify-content: center;
+    align-items: center;
+}
+.number{
+    border-radius: 20%;
+
+}
+
+.reset button{
+    background-color: brown;
+    color:white;
+}
+.extra button{
+    background-color: darkcyan;
+    color:white;
+}
